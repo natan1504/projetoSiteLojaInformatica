@@ -22,7 +22,7 @@ header {
         align-items: center;
         justify-content: center;
         margin-left: 200px;
-
+        
         & img {
             width: 30px;
         }
@@ -37,10 +37,16 @@ header {
         & span {
             text-align: center;
             margin-right: 20px;
+            padding: 10px;
+            height: 35px;
         }
-
-        img {
+        & span:hover{
+            border-bottom: 1px solid white;
+            
+        }
+        & img {
             width: 30px;
+            margin-top: 5px;
         }
     }
 }
@@ -79,9 +85,14 @@ main{
 
 /* INICIO FOOTER */
 footer{
-    display: flex;
-    justify-content: center;
     background-color: var(--cor-backgorund);
+& .containerFooter{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
     & .contato, .ofertas, .suporte{
         & ul{
             & li{
@@ -112,13 +123,13 @@ footer{
         align-items: center;
         justify-content: right;
         border: 2px solid black;
-        width: 500px;
-        margin-top: 5px;
+        
         & .divimg{
             & img{
                 width: 30px;
             }
         }
     }
+}
 }
 /* FINAL FOOTER */
