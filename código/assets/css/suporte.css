@@ -1,0 +1,133 @@
+@import url('./reset.css');
+@import url('./global.css');
+
+header {
+    background-color: var(--cor-background);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    & .logo {
+        & img {
+            width: 80px;
+            margin-top: 5px;
+            margin-left: 25px;
+        }
+    }
+
+    & .input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 200px;
+        & input{
+            width: 500px;
+            outline: 0;
+        }
+        & img {
+            width: 30px;
+        }
+    }
+
+    & .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 10px;
+
+        & span {
+            text-align: center;
+            margin-right: 20px;
+            padding: 10px;
+            height: 35px;
+            vertical-align: baseline;
+            & a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+        & span:hover{
+            border-bottom: 1px solid white;
+            
+        }
+        & img {
+            width: 30px;
+            margin-top: 5px;
+        }
+    }
+}
+
+/* INICIO FOOTER */
+footer{
+    background-color: var(--cor-background);
+    margin-top: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+& .containerFooter{ 
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    & .logoFooter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & img{ 
+            width: 150px;
+            margin-left: -20px;
+        }
+    }
+
+    & .contato, .ofertas, .suporte{
+        & ul{
+            & li{
+                list-style-type: none;
+                cursor: pointer;
+                margin-top: 5px;
+               
+                & a{
+                    color: white;
+                    text-decoration: none;
+                }
+
+                & a:hover{
+                    transition: 0.8s;
+                    border-bottom: 1px solid white;
+                }
+            } 
+            /* Aplicar efeito negrito no primeiro nome de cada lista */
+            & li:nth-child(1){
+                font-weight: bold;
+            } 
+            
+        }
+    }
+
+    & .faleConosco{
+        display: flex;
+        & ul{
+            color: white;
+            & li{
+                list-style: none;
+                & a{
+                    text-decoration: none;
+                    & img{
+                        width: 30px;
+                    }
+                }
+            }
+            & .redesSociais{
+                display: flex;
+                gap: 10px;
+            }
+            & li:nth-child(1){
+                font-weight: bold;
+            }
+        }
+    }
+   
+}
+}
+/* FINAL FOOTER */
