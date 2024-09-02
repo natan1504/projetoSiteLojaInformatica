@@ -1,0 +1,559 @@
+@import url('./reset.css');
+@import url('./global.css');
+
+/* INICIO HEADER */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--cor-background);
+}
+    /* INICO DIVLOGO */
+header > .divLogo > img{
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+    /* FINAL DIVLOGO */
+    /* INICO DIVINPUT */
+header >  .divInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header >  .divInput > input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    outline: 0;
+}
+header > .divInput > img{
+    width: 30px;
+}
+    /* FINAL DIVINPUT */
+    /* INICIO DIV MENUHEADER */
+header > nav > .menuHeader {
+    margin-top: 20px;
+}
+header > nav > .menuHeader > ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+header > nav > .menuHeader > ul > img{
+    width: 30px;
+}
+header > nav > .menuHeader > ul > li{
+    list-style-type: none;
+    margin-right: 40px;
+} 
+header > nav > .menuHeader > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+
+.menuHeader > ul > li > a:hover{
+    transition: 0.8s;
+    border-bottom: 2px solid white;
+}
+nav > .menuHeader > ul > .divLogin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-right: 30px;
+}
+nav > .menuHeader > ul > .divLogin > li{
+    list-style-type: none;
+}
+nav > .menuHeader > ul > .divLogin > li > a{
+    text-decoration: none;
+    color: white;
+}
+nav > .menuHeader > ul > .divLogin > img{
+    width: 30px;
+}
+.menuHeader > ul > .divLogin > .criarConta{
+    position: absolute;
+    margin-top: 60px;
+    width: 150px;
+}
+.menuHeader > ul > .divLogin  > .criarConta > ul > li{
+    list-style-type: none;
+    text-align: center;
+    border: 2px solid white;
+    padding: 5px;
+    display: none;
+}
+.menuHeader > ul > .divLogin:hover > .criarConta > ul > li{
+    display: block;
+}
+.menuHeader > ul > .divLogin  > .criarConta > ul > li > a{
+    color: white;
+    text-decoration: none;
+}
+    /* FINAL DIV MENUHEADER */
+/* FINAL HEADER */
+
+/* INCIO SECTION SUBMENU */
+
+    /* INICIO DIV INFRAESTRUTURA */
+.subMenu{
+    background-color: var(--cor-background);
+    height: 40px;
+}
+.menuDrop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-right: 15%;
+}
+.subMenu > .menuDrop > .divInfraestrutura{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subMenu > .menuDrop > .divInfraestrutura > li {
+    list-style-type: none;
+}
+.subMenu > .menuDrop > .divInfraestrutura > li > a{
+    text-decoration: none;
+    color: white;
+} 
+.subMenu > .menuDrop > .divInfraestrutura > img{
+    width: 30px;
+}
+
+/* INICIO MENU DROPDOWN */
+.divInfraestrutura > .menuDropInfraestrutura{
+    border: 2px solid white;
+    margin-top: 60px;
+    position: absolute;
+    width: 180px;
+    padding: 5px;
+    display: none;
+}
+.divInfraestrutura > .menuDropInfraestrutura > li{
+    list-style-type: none;
+    text-align: center;
+    
+}
+.divInfraestrutura > .menuDropInfraestrutura > li > a{
+    text-decoration: none;
+    color: white;
+}
+.divInfraestrutura:hover > .menuDropInfraestrutura{
+    display: block;
+    background-color: var(--cor-background);
+    z-index: 9;
+}
+    /* FINAL DIV INFRAESTRUTURA */
+
+    /* INICIO DIVI NOTEBOOKPC */
+.divNotebookPc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divNotebookPc > li{
+    list-style-type: none;
+}
+.divNotebookPc > li > a{
+    text-decoration: none;
+    color: white;
+}
+.divNotebookPc > img{
+    width: 30px;
+}
+
+.divNotebookPc > .teste{
+    position: absolute;
+    margin-top: 125px;
+    z-index: 9;
+    width: 190px;
+    display: grid;
+    align-items: center;
+    justify-content: left;
+    margin-right: 4px;
+    
+}
+ 
+.divNotebookPc > .teste > ul > li{
+    list-style: none;
+    margin-top: 1px;
+    width: 130px;
+    border: 2px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.divNotebookPc > .teste > ul > li > a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+.divNotebookPc > .teste > ul > li{
+    display: none;
+}
+.divNotebookPc:hover > .teste > ul > li{
+    display: block;
+    background-color: var(--cor-background);
+    
+}
+    /* FINAL DIVI NOTEBOOKPC */
+
+/* FINAL MENU DROPDOWN */
+
+    /* INICIO DIV ACESSORIO */
+.divAcessorio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divAcessorio > li{
+    list-style-type: none;
+}
+.divAcessorio > li > a{
+    text-decoration: none;
+    color: white;
+}
+.divAcessorio > img{
+    width: 30px;
+}
+    /* FINAL DIV ACESSORIO */
+
+    /* INICIO DIV SUPORTE */
+.divSuporte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divSuporte > li{
+    list-style-type: none;
+}
+.divSuporte > li > a{
+    text-decoration: none;
+    color: white;
+}
+.divSuporte > img{
+    width: 30px;
+}
+    /* FINAL DIV SUPORTE */
+/* FINAL SECTION SUBMENU */
+
+/* INICIO MAIN */
+
+    /* INICIO DIV TXT1 */
+main > .divTxt1{
+    background-color: var(--cor-background);
+    flex-wrap: wrap;
+}
+main > .divTxt1 > p{
+    color: white;
+    width: 600px;
+}
+main > .divTxt1 > p > span{
+    font-weight: bold;
+}
+    /* FINAL DIV TXT1 */
+
+    /* INICIO DIV CARD1 */
+main > .divCard1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+main > .divCard1 > .portalSuporte {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--cor-background);
+    width: 250px;
+    height: 250px;
+}
+main > .divCard1 > .portalSuporte > h5{
+    background-color: var(--cor-background);
+    color: white;
+    text-align: center;
+}
+.divCard1 > .portalSuporte > .imgSuporte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.divCard1 > .portalSuporte > .imgSuporte > img{
+    width: 120px; 
+  
+}
+.suportePedidos{
+    border: 1px solid var(--cor-background);
+    width: 250px;
+    height: 250px;
+} 
+.suportePedidos > h5{
+    background-color: var(--cor-background);
+    color: white;
+    text-align: center;
+    
+}
+.suportePedidos > .imgSuportePedidos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.suportePedidos > .imgSuportePedidos > img{
+    width: 100px;
+}
+    /* FINAL DIV CARD1 */
+
+    /* INICIO DIV CARD2 */
+.divCard2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 50px;
+}
+.divCard2 > .downloadDrive{
+    width: 250px;
+    height: 250px;
+    border: 1px solid var(--cor-background);
+}
+.divCard2 > .downloadDrive > h5{
+    background-color: var(--cor-background);
+    color: white;
+    text-align: center;
+}
+.downloadDrive > .imgDownloadDrive{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.downloadDrive > .imgDownloadDrive > img{
+    width: 120px;
+    margin-top: 50px;
+}
+.garantia{
+    border: 1px solid var(--cor-background);
+    width: 250px;
+    height: 250px;
+}
+.garantia > h5{
+    background-color: var(--cor-background);
+    text-align: center;
+    color: white;
+}
+.garantia > .imgGarantia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.garantia > .imgGarantia > img{
+    margin-top: 50px;
+    width: 120px;
+}
+    /* FINAL CARD2 */
+
+    /* INICIO DIV IMGSUPORTE */
+.divIgmSuporte{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    border: 1px solid black;
+}
+.divIgmSuporte > img{
+    width: 300px;
+}
+    /* FINAL DIV IMGSUPORTE */
+
+    /* INICIO DIV TXT2 */
+.divTxt2{
+    background-color: var(--cor-background);
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.divTxt2 > p{
+    color: white;
+    width: 600px;
+}
+    /* FINAL DIV TXT2 */
+
+    /* INICIO DIV CARDSOLUCOES */
+
+.cardsSolucoes > .primeiraLinha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.cardsSolucoes > .primeiraLinha > .divNotebook{
+    border: 1px solid var(--cor-background);
+    width: 250px;
+    height: 250px;
+}
+.cardsSolucoes > .primeiraLinha > .divNotebook > h5{
+    background-color: var(--cor-background);
+    color: white;
+    text-align: center;
+}
+.cardsSolucoes > .primeiraLinha > .divNotebook > .imgDivNotebook{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cardsSolucoes > .primeiraLinha > .divNotebook > .imgDivNotebook >  img{
+    width: 180px;
+}
+
+.cardsSolucoes > .primeiraLinha >.divAcessorio{
+    width: 250px;
+    height: 250px;
+    border: 1px solid var(--cor-background);
+    display: inline-block !important;
+}
+.cardsSolucoes > .primeiraLinha >.divAcessorio > h5{
+    background-color: var(--cor-background);
+    color: white;
+    text-align: center;
+}
+.cardsSolucoes > .primeiraLinha >.divAcessorio > .imgDivAcessorio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cardsSolucoes > .primeiraLinha >.divAcessorio > .imgDivAcessorio > img{
+    width: 180px;
+}
+
+.segundaLinha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+.segundaLinha > .divComputador{
+    border: 1px solid var(--cor-background);
+    color: white;
+    width: 250px;
+    height: 250px;
+}
+.segundaLinha > .divComputador > h5{
+    background-color: var(--cor-background);
+    text-align: center;
+}
+.segundaLinha > .divComputador > .imgDivComputador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.segundaLinha > .divComputador > .imgDivComputador > img{
+    width: 180px;
+}
+
+.segundaLinha > .divInfra{
+    border: 1px solid var(--cor-background);
+    width: 250px;
+    height: 250px;
+}
+.segundaLinha > .divInfra > h5{
+    background-color: var(--cor-background);
+    color: white;
+    text-align: center;
+}
+.segundaLinha > .divInfra > .imgDivInfra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.segundaLinha > .divInfra > .imgDivInfra > img{
+    width: 180px;
+}
+    /* FINAL DIV CARDSOLUÇÕES */
+/* FINAL MAIN */
+
+/* INICIO FOOTER */
+footer{
+    background-color: var(--cor-background);
+    margin-top: 50px;
+    /* position: absolute;
+    bottom: 0;
+    width: 100%; */
+& .containerFooter{ 
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+    & .logoFooter{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & img{ 
+            width: 150px;
+            margin-left: -20px;
+        }
+    }
+
+    & .contato, .ofertas, .suporte{
+        & ul{
+            & li{
+                list-style-type: none;
+                cursor: pointer;
+                margin-top: 5px;
+               
+                & a{
+                    color: white;
+                    text-decoration: none;
+                }
+
+                & a:hover{
+                    transition: 0.8s;
+                    border-bottom: 1px solid white;
+                }
+            } 
+            /* Aplicar efeito negrito no primeiro nome de cada lista */
+            & li:nth-child(1){
+                font-weight: bold;
+            } 
+            
+        }
+    }
+
+    & .faleConosco{
+        display: flex;
+        & ul{
+            color: white;
+            & li{
+                list-style: none;
+                & a{
+                    text-decoration: none;
+                    & img{
+                        width: 30px;
+                    }
+                }
+            }
+            & .redesSociais{
+                display: flex;
+                gap: 10px;
+            }
+            & li:nth-child(1){
+                font-weight: bold;
+            }
+        }
+    }
+   
+}
+}
+/* FINAL FOOTER */
+

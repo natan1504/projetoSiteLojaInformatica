@@ -1,0 +1,80 @@
+@import url('./reset.css');
+@import url('./global.css'); 
+
+/* INICIO MAIN */
+main > h3{
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* INICIO DIV SERVIDORES */
+
+.produtos > .pcs{
+    display: grid;
+    align-items: left;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* FINAL DIV SERVIDORES */
+
+/* INICIO DIV SERVIDOR1 */
+.produtos > .pcs > .pc1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.produtos > .pcs > .pc1 > img{
+    width: 180px;
+    margin-top: 10px;
+    
+}
+
+.pcs > .pc1  > .divServidor1Txt > span{
+    color: var(--cor-background);
+}
+.pcs > .pc1 > .divServidor1Txt > .divPc1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pc1 > .divServidor1Txt > .divPc1 > button{
+    padding: 10px;
+    border-color: var(--cor-background);
+    background-color: white;
+    color: var(--cor-background);
+}
+/* FINAL DIV SERVIDOR1 */
+
+/* INICIO DIV SERVIDOR2 */
+.produtos > .pcs > .pc2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 800px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.produtos > .pcs > .pc2 > img{
+    width: 180px;
+    margin-top: 10px;
+}
+.produtos > .pcs > .pc2 > .divServidor2Txt > span{
+    color: var(--cor-background);
+}
+.pc2 > .divServidor2Txt > .divButtonPc2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pc2 > .divServidor2Txt > .divButtonPc2 > button{
+    padding: 10px;
+    border-color: var(--cor-background);
+    background-color: white;
+    color: var(--cor-background);
+}
+/* FINAL DIV SERVIDOR2 */
+
+/* FINAL MAIN */

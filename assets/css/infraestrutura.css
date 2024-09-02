@@ -1,0 +1,78 @@
+@import url('./reset.css');
+@import url('./global.css'); 
+
+/* INICIO MAIN */
+main > h3{
+    text-align: center;
+}
+
+/* INICIO DIV SERVIDORES */
+.produtos > .servidores{
+    display: grid;
+    align-items: left;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* FINAL DIV SERVIDORES */
+
+/* INICIO DIV SERVIDOR1 */
+.produtos > .servidores > .servidor1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.produtos > .servidores > .servidor1 > img{
+    width: 120px;
+    margin-top: 10px;
+    
+}
+
+.servidores > .servidor1 >.divServidor1Txt > span{
+    color: var(--cor-background);
+}
+.servidores > .servidor1 > .divServidor1Txt > .divButtonServidor1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servidor1 > .divServidor1Txt > .divButtonServidor1 > button{
+    padding: 10px;
+    border-color: var(--cor-background);
+    background-color: white;
+    color: var(--cor-background);
+}
+/* FINAL DIV SERVIDOR1 */
+
+/* INICIO DIV SERVIDOR2 */
+.produtos > .servidores > .servidor2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 500px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.produtos > .servidores > .servidor2 > img{
+    width: 120px;
+    margin-top: 10px;
+}
+.produtos > .servidores > .servidor2 > .divServidor2Txt > span{
+    color: var(--cor-background);
+}
+.servidor2 > .divServidor2Txt > .divButtonServidor2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.servidor2 > .divServidor2Txt > .divButtonServidor2 > button{
+    padding: 10px;
+    border-color: var(--cor-background);
+    background-color: white;
+    color: var(--cor-background);
+}
+/* FINAL DIV SERVIDOR2 */
+
+/* FINAL MAIN */

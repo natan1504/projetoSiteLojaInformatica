@@ -1,0 +1,82 @@
+@import url('./reset.css');
+@import url('./global.css'); 
+
+/* INICIO MAIN */
+main > h3{
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* INICIO DIV SERVIDORES */
+.produtos{
+    
+}
+.produtos > .notebooks{
+    display: grid;
+    align-items: left;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* FINAL DIV SERVIDORES */
+
+/* INICIO DIV SERVIDOR1 */
+.produtos > .notebooks > .notebook1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.produtos > .notebooks > .notebook1 > img{
+    width: 180px;
+    margin-top: 10px;
+    
+}
+
+.notebooks > .notebook1 >.divServidor1Txt > span{
+    color: var(--cor-background);
+}
+.notebooks > .notebook1 > .divServidor1Txt > .divButtonNotebook1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notebook1 > .divServidor1Txt > .divButtonNotebook1 > button{
+    padding: 10px;
+    border-color: var(--cor-background);
+    background-color: white;
+    color: var(--cor-background);
+}
+/* FINAL DIV SERVIDOR1 */
+
+/* INICIO DIV SERVIDOR2 */
+.produtos > .notebooks > .notebook2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 800px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.produtos > .notebooks > .notebook2 > img{
+    width: 180px;
+    margin-top: 10px;
+}
+.produtos > .notebooks > .notebook2 > .divServidor2Txt > span{
+    color: var(--cor-background);
+}
+.notebook2 > .divServidor2Txt > .divButtonNotebook2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.notebook2 > .divServidor2Txt > .divButtonNotebook2 > button{
+    padding: 10px;
+    border-color: var(--cor-background);
+    background-color: white;
+    color: var(--cor-background);
+}
+/* FINAL DIV SERVIDOR2 */
+
+/* FINAL MAIN */

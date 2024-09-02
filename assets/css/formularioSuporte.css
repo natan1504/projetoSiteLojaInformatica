@@ -1,0 +1,53 @@
+@import url('./reset.css');
+@import url('./global.css');
+
+html{
+    background-color: var(--cor-background);
+}
+
+.container{
+    color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.container > .containerLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45%;
+}
+.container > .containerLogo > img{
+    width: 120px;
+}
+.container > h1{
+    
+}
+.container > form{
+    display: grid;
+}
+.container > form > input{
+    outline: 0;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.container > form > textarea{
+    margin-top: 30px;
+    outline: 0;
+}
+
+.container > form > .btnForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+} 
+
+.container > form > .btnForm > button{
+    padding: 10px;
+    width: 90px;
+    border-color: white;
+    background-color: white;
+    color: var(--cor-background);
+}

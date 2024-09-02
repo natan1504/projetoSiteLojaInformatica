@@ -1,0 +1,55 @@
+@import url('./reset.css');
+@import url('./global.css');
+
+html{
+    background-color: var(--cor-background);
+}
+
+.divCadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+
+.divCadastro > .dados {
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.divCadastro > .dados > .divImgDados{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divCadastro > .dados > .divImgDados > img{
+    width: 120px;
+}
+.divCadastro > .dados > input{
+    padding: 10px;
+    width: 300px;
+    outline: 0;
+}
+.dados > .divBtnCadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dados > .divBtnCadastro > button{
+    padding: 10px;
+    background-color: white;
+    color: var(--cor-background);
+    border-color: var(--cor-background);
+    border-radius: 10px;
+    width: 120px;
+    font-size: 1rem;
+}
+
+
+
