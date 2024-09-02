@@ -1,135 +1,56 @@
 @import url('./reset.css');
-@import url('./global.css');
+@import url('./global.css'); 
 
-header {
-    background-color: var(--cor-background);
-    color: white;
+/* INICIO MAIN */
+main > h3{
+    text-align: center;
+}
+
+/* INICIO DIV SERVIDORES */
+.produtos > .servidores{
+    display: grid;
+    align-items: left;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* FINAL DIV SERVIDORES */
+
+/* INICIO DIV SERVIDOR1 */
+.produtos > .servidores > .servidor1{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 500px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+}
+.produtos > .servidores > .servidor1 > img{
+    width: 120px;
+    margin-top: 10px;
     
-    & .logo {
-        & img {
-            width: 80px;
-            margin-top: 5px;
-            margin-left: 25px;
-        }
-    }
-
-    & .input {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-left: 200px;
-        & input{
-            width: 500px;
-            outline: 0;
-        }
-        & img {
-            width: 30px;
-        }
-    }
-
-    & .menu {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-right: 10px;
-
-        & span {
-            text-align: center;
-            margin-right: 20px;
-            padding: 10px;
-            height: 35px;
-            vertical-align: baseline;
-            & a{
-                text-decoration: none;
-                color: white;
-            }
-        }
-        & span:hover{
-            border-bottom: 1px solid white;
-            
-        }
-        & img {
-            width: 30px;
-            margin-top: 5px;
-        }
-    }
 }
 
+.servidores > .servidor1 >.divServidor1Txt > span{
+    color: var(--cor-background);
+}
 
+/* FINAL DIV SERVIDOR1 */
 
-/* INICIO FOOTER */
-footer{
-    background-color: var(--cor-background);
-    margin-top: 50px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-& .containerFooter{ 
+/* INICIO DIV SERVIDOR2 */
+.produtos > .servidores > .servidor2{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 500px;
+    margin-top: 10px;
     display: flex;
-    justify-content: space-around;
-    width: 100%;
-
-    & .logoFooter{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        & img{ 
-            width: 150px;
-            margin-left: -20px;
-        }
-    }
-
-    & .contato, .ofertas, .suporte{
-        & ul{
-            & li{
-                list-style-type: none;
-                cursor: pointer;
-                margin-top: 5px;
-               
-                & a{
-                    color: white;
-                    text-decoration: none;
-                }
-
-                & a:hover{
-                    transition: 0.8s;
-                    border-bottom: 1px solid white;
-                }
-            } 
-            /* Aplicar efeito negrito no primeiro nome de cada lista */
-            & li:nth-child(1){
-                font-weight: bold;
-            } 
-            
-        }
-    }
-
-    & .faleConosco{
-        display: flex;
-        & ul{
-            color: white;
-            & li{
-                list-style: none;
-                & a{
-                    text-decoration: none;
-                    & img{
-                        width: 30px;
-                    }
-                }
-            }
-            & .redesSociais{
-                display: flex;
-                gap: 10px;
-            }
-            & li:nth-child(1){
-                font-weight: bold;
-            }
-        }
-    }
-   
+    align-items: center;
+    justify-content: center;
 }
+.produtos > .servidores > .servidor2 > img{
+    width: 120px;
+    margin-top: 10px;
 }
-/* FINAL FOOTER */
+.produtos > .servidores > .servidor2 > .divServidor2Txt > span{
+    color: var(--cor-background);
+}
+/* FINAL DIV SERVIDOR2 */
+
+/* FINAL MAIN */
